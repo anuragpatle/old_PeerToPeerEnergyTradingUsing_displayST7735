@@ -62,3 +62,6 @@ GND 			GND
 	and uncomment the line; "//#include <Setup14_ILI9341_Parallel.h>   "
 
 
+* Install the below library:
+TFT_eWidget by Bodmer, PNGdec by Larry Bank, adafruit/Adafruit GFX Library@^1.11.5,
+Adafruit BusIO
