@@ -48,7 +48,7 @@ void loop() {
   tft.setRotation(1);  // portrait
   tft.fillScreen(TFT_BLACK);
 
-  drawArrayJpeg(station1, sizeof(station1), 0, 0); // Draw a jpeg image stored in memory at x,y
+  drawArrayJpeg(station1, sizeof(station1), 10, 0); // Draw a jpeg image stored in memory at x,y
   delay(10000);
 
 }
